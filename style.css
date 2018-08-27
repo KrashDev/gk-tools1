@@ -48,28 +48,8 @@ body {
   top: 105px;
 }
 
-#samurai img {
-  width: 35%;
-  text-align: center;
-}
-
-#zorm img {
-  width: 35%;
-  text-align: center;
-}
-
-#forest img {
-  width: 35%;
-  text-align: center;
-}
-
-#dustari img {
-  width: 35%;
-  text-align: center;
-}
-
-#pirate img {
-  width: 35%;
+#samurai img, #zorm img, #forest img, #dustari img, #pirate img {
+  width: 50%;
   text-align: center;
 }
 
@@ -96,11 +76,6 @@ body {
   top: 105px;
 }
 
-.email img {
-  position: relative;
-  top: 0px;
-}
-
 .third-tool {
   border: 6px solid #eaeaea;
   /* border: 6px solid #eaeaea; */
@@ -115,11 +90,6 @@ body {
   top: 105px;
 }
 
-.gallery img {
-  position: relative;
-  top: 0px;
-}
-
 .fourth-tool {
   border: 6px solid #18ccd7;
   /* border: 6px solid #eaeaea; */
@@ -132,11 +102,6 @@ body {
 .fourth-tool img {
   position: relative;
   top: 105px;
-}
-
-.about img {
-  position: relative;
-  top: 0px;
 }
 
 .fifth-tool {
@@ -163,7 +128,7 @@ body {
   color: #ffffff;
   font-size: 20px;
   position: relative;
-  top: 100px;
+  top: 50px;
 }
 
 /* --------- promise section -----------*/
