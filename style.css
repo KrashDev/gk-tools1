@@ -1,0 +1,414 @@
+body {
+  /* background-color: #4d4d4d; */
+  background-image: url("images/random_grey_variations.png");
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+/* --------- tool section -----------*/
+
+.jumbotron {
+  height: 250px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  /* background-color: #4d4d4d; */
+  /* background-image: url("images/random_grey_variations.png"); */
+}
+
+#logo {
+  z-index: 5;
+  margin-top: -1%;
+  width: 65%;
+}
+
+.tool-cards {
+  z-index: 3;
+}
+
+.tool-cards>div {
+  margin-top: 5%;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tool-cards img {
+  margin-left: 2%;
+}
+
+.first-tool img {
+  position: relative;
+  top: 150px;
+}
+
+#samurai {
+  text-align: center;
+}
+
+#samurai img {
+  position: relative;
+  top: 105px;
+}
+
+#samurai img {
+  width: 35%;
+  text-align: center;
+}
+
+#zorm img {
+  width: 35%;
+  text-align: center;
+}
+
+#forest img {
+  width: 35%;
+  text-align: center;
+}
+
+#dustari img {
+  width: 35%;
+  text-align: center;
+}
+
+#pirate img {
+  width: 35%;
+  text-align: center;
+}
+
+.first-tool {
+  border: 6px solid #b3220c;
+  /* border: 6px solid #eaeaea; */
+  /* background-color: transparent; */
+  /* background-color: #e92c07; */
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.second-tool {
+  border: 6px solid #b9a805;
+  /* border: 6px solid #eaeaea; */
+  /* background-color: transparent; */
+  /* background-color: #e3d015; */
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.second-tool img {
+  position: relative;
+  top: 105px;
+}
+
+.email img {
+  position: relative;
+  top: 0px;
+}
+
+.third-tool {
+  border: 6px solid #eaeaea;
+  /* border: 6px solid #eaeaea; */
+  /* background-color: transparent; */
+  /* background-color: #ffffff; */
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.third-tool img {
+  position: relative;
+  top: 105px;
+}
+
+.gallery img {
+  position: relative;
+  top: 0px;
+}
+
+.fourth-tool {
+  border: 6px solid #18ccd7;
+  /* border: 6px solid #eaeaea; */
+  /* background-color: transparent; */
+  /* background-color: #17e9f6; */
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.fourth-tool img {
+  position: relative;
+  top: 105px;
+}
+
+.about img {
+  position: relative;
+  top: 0px;
+}
+
+.fifth-tool {
+  border: 6px solid #0eae14;
+  /* border: 6px solid #eaeaea; */
+  /* background-color: transparent; */
+  /* background-color: #22d16c; */
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#forest img {
+  position: relative;
+  top: 105px;
+}
+
+.wiki img, .builder img, .gmap img, .trash img, .stats img {
+  height: 100px;
+  visibility: hidden;
+  top: 0px;
+}
+
+.wiki, .builder, .gmap, .trash, .stats {
+  color: #ffffff;
+  font-size: 20px;
+  position: relative;
+  top: 100px;
+}
+
+/* --------- promise section -----------*/
+
+.jumbotron {
+  margin-top: -2%;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.tool-cards {
+  font-size: 20px;
+  text-align: center;
+}
+
+.tool-cards div {
+  width: 10%;
+  margin-left: 1%;
+  height: 400px;
+  display: inline-block;
+  /* border: 2px solid #000000; */
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+/* --------- gallery section -----------*/
+
+.instagram {
+  /* display: none; */
+  visibility: hidden;
+  color: #523212;
+}
+
+.email {
+  /* display: none; */
+  visibility: hidden;
+  color: #40230e;
+}
+
+.gallery {
+  /* display: none; */
+  visibility: hidden;
+  color: #341e0e;
+}
+
+.about {
+  /* display: none; */
+  visibility: hidden;
+  color: #27190d;
+}
+
+.reviews {
+  /* display: none; */
+  visibility: hidden;
+  color: #180c01;
+}
+
+/* --------- contact section -----------*/
+
+/* -------The Modal (background)-------*/
+
+#about-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+
+.about-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 4% 8% 4% 8%;
+  border: 6px solid #333333;
+  width: 60%;
+  font-size: 20px;
+  font-family: 'Tienne', serif;
+}
+
+#review-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.review-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 5% 10% 5% 10%;
+  border: 6px solid #333333;
+  width: 65%;
+  font-size: 20px;
+  font-family: 'Tienne', serif;
+}
+
+.carousel-button div {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border: 2px solid #444444;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 27px;
+}
+
+.carousel-button div.active {
+  background-color: #444444;
+}
+
+#gallery-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.gallery-modal-content {
+  text-align: center;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 4%;
+  border: 6px solid #333333;
+  width: 70%;
+  font-size: 20px;
+  font-family: 'Tienne', serif;
+}
+
+.gallery-modal-content img {
+  padding: 10px;
+  margin: 2%;
+  height: 270px;
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.first-gal-set {
+  display: block;
+}
+
+.first-gal-set {
+  display: none;
+}
+
+.review-slide {
+  display: none;
+}
+
+.review-slide.active {
+  display: block;
+}
+
+.modal-button-left {
+  width: 25%;
+  margin: auto;
+  display: block;
+}
+
+.modal-button-center {
+  width: 25%;
+  margin: auto;
+  display: none;
+}
+
+.modal-button-right {
+  width: 25%;
+  margin: auto;
+  display: none;
+}
+
+.quoter {
+  font-family: 'Tienne', serif;
+  font-size: 20px;
+  float: right;
+}
+
+/* The Close Button */
+
+.close {
+  position: relative;
+  color: #333333;
+  /* float: left; */
+  font-size: 35px;
+  font-weight: bold;
+  border: 2px solid #333333;
+  left: -17%;
+  padding: 5px;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+
+@media screen and (max-width: 500px) {
+  .tool-cards div {
+    margin-top: -10%;
+    width: 65%;
+    height: 200px;
+    margin-bottom: 5px;
+  }
+  #logo {
+    width: 400px;
+    margin-left: -10%;
+  }
+  /*
+  .first-tool img, .second-tool img, .third-tool img, .fourth-tool img, .fifth-tool img {
+    display: none;
+  }
+  */
+  .first-tool, .second-tool, .third-tool, .fourth-tool, .fifth-tool {
+    background-color: transparent;
+  }
+  #samurai img, #dustari img, #twisty img, #zorm img, #chisel img {
+    visibility: hidden;
+  }
+  .instagram, .email, .about, .gallery, .reviews {
+    visibility: visible;
+    position: relative;
+    top: -70px;
+    display: block;
+  }
+}
